@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Thông tin giao hàng</title>
+        <% include ../hangsx/elements/header  %>
+		<style>
+			.color {
+				color: red;
+			}
+			.color1 {
+				color: blue;
+			}
+			.color2 {
+				color: green;
+			}
+		</style>
+    </head>
+    <body id="page-top">
+            <% include ../hangsx/elements/navbar  %>
+        <div id="wrapper">
+        <% include  elements_3/sidebar_3   %>
+		<br />
+        <div class="container">
+			<h1 class="color1">Thông tin giao hàng</h1>
+				<form>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="inputEmail4">Tên người nhận:</label>
+							<input type="text" class="form-control" id="inputEmail4" placeholder="VD: Nguyễn Đức A">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="inputPassword4">Số điện thoại người nhận:</label>
+							<input type="password" class="form-control" id="inputPassword4" placeholder="VD:0976930984">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="inputAddress">Địa chỉ người nhận: </label>
+							<input type="text" class="form-control" id="inputAddress" placeholder="VD: 657 Phạm Thế Hiển , phường 4 , quận 8, TP Hồ Chí Minh">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="inputPassword4">Email:</label>
+							<input type="password" class="form-control" id="inputPassword4" placeholder="VD:kudothiago199@gmail">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="inputCity">Chú thích thêm địa chỉ: </label>
+							<input type="password" class="form-control" id="inputPassword4" placeholder="VD:hẻm 653 rẽ phải đi thẳng cuối hẻm">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="inputState">Thanh toán</label>
+							<select id="inputState" class="form-control">
+								<option selected>Thanh toán khi nhận hàng</option>
+								<option selected>Thanh toán online</option>								
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" id="gridCheck">
+							<label class="form-check-label" for="gridCheck">
+							Xác nhận thông tin giao hàng
+							</label>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary">Lưu thông tin giao hàng</button>
+					<div class="col-sm-12">
+							<div style='border-bottom:1px solid #ccc;'></div>
+					</div>
+				</form>
+			
+			<br />
+			<br />
+            <% include ../elements_1/note   %>
+            <br />
+            <br />
+            <div class="row">
+                <p>     </p>
+			<div class="col-sm-12">
+				<div style='border-bottom:1px solid #ccc;'></div>
+			</div>
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+        <!-- Sticky Footer -->
+        <% include ../elements_1/footer  %>
+        <!-- /#wrapper -->
+        <!-- Scroll to Top Button-->
+        <% include ../hangsx/elements/logout  %>
+        <% include ../hangsx/elements/script  %>
+    </body>
+</html>

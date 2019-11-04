@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Lịch sử - trạng thái mua hàng </title>
+        <% include ../hangsx/elements/header  %>
+		<style>
+			.color {
+				color: red;
+			}
+			.color1 {
+				color: blue;
+			}
+			.color2 {
+				color: green;
+			}
+		</style>
+    </head>
+    <body id="page-top">
+        <% include ../hangsx/elements/navbar  %>
+        <div id="wrapper">
+        <% include  elements_3/sidebar_3   %>
+		<br />
+        <div class="container">
+        <h1 class="color1">Lịch sử - Trạng thái mua hàng</h1>
+            <br />
+            <br />
+            <div class="row color2" >
+                <div class="col-md-1">
+                    <h6> STT </h6>
+                </div>
+                <div class="col-md-5">
+                    <h6>Sản phẩm  </h6>
+                </div>
+                <div class="col-md-4">
+                    <h6>Tổng tiền </h6>
+                </div>
+                <div class="col-md-2">
+                    <h6>Trạng thái   </h6>
+                </div>
+                <div class="col-sm-12">
+                    <div style='border-bottom:1px solid #ccc;'></div>
+                </div>
+            </div>  
+            <div class="row">
+                <div class="col-md-1">
+                    <h6> 1 </h6>
+                </div>
+                <div class="col-md-1">
+                    <img src="./../img/dell1.jpg" width="100" height="100" />
+                </div>
+                <div class="col-md-4">
+                     <br />                 
+                    <p>  Dell 13.3" XPS 13 9380 Multi-Touch Laptop   </p>
+                </div>
+                <div class="col-md-4">
+                    <h6>29.990.000đ </h6>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="color">Đang giao  </h6>
+                </div>
+                <div class="col-sm-12">
+                    <div style='border-bottom:1px solid #ccc;'></div>
+                </div>
+            </div>  
+            <div class="row">
+                <div class="col-md-1">
+                    <h6> 2 </h6>
+                </div>
+                <div class="col-md-1">
+                    <br />
+                    <img src="./../img/hp1.jpg" width="100" height="80" />
+                </div>
+                <div class="col-md-4">
+                     <br />                 
+                    <p>  HP - 14" Touch-Screen Laptop(Intel Core i3/4GB Memory/128GB Solid State Drive/Ash Silver Keyboard Frame)  </p>
+                </div>
+                <div class="col-md-4">
+                    <h6>19.500.000đ </h6>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="color1">Đã giao  </h6>
+                </div>
+                <div class="col-sm-12">
+                    <div style='border-bottom:1px solid #ccc;'></div>
+                </div>
+            </div>  
+
+
+			<br />
+			<br />
+            <% include ../elements_1/note   %>
+            <br />
+            <br />
+            <div class="row">
+                <p>     </p>
+			<div class="col-sm-12">
+				<div style='border-bottom:1px solid #ccc;'></div>
+			</div>
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+        <!-- Sticky Footer -->
+        <% include ../elements_1/footer  %>
+        <!-- /#wrapper -->
+        <!-- Scroll to Top Button-->
+        <% include ../hangsx/elements/logout  %>
+        <% include ../hangsx/elements/script  %>
+    </body>
+</html>

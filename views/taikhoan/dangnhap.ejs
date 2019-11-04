@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Đăng nhập</title>
+    <% include  elements_4/header_4 %>
+
+</head>
+
+<body class="bg-dark">
+
+  <div class="container">
+    <div class="card card-login mx-auto mt-5">
+      <div class="card-header dn1"> <h3>Đăng nhập</h3></div>
+      <div class="card-body">
+        <form>
+          <div class="form-group">
+            <div class="form-label-group">
+              <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="required" autofocus="autofocus">
+              <label for="inputEmail">Địa chỉ Email</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-label-group">
+              <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required">
+              <label for="inputPassword">Mật khẩu</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="remember-me">
+                Lưu lại mật khẩu
+              </label>
+            </div>
+          </div>
+          <a class="btn btn-primary btn-block" href="dangnhap">Đăng nhập</a>
+        </form>
+        <div class="text-center">
+          <a class="d-block small mt-3" href="dangky">Đăng ký tài khoản</a>
+          <a class="d-block small" href="quenmatkhau">Quên mật khẩu?</a>
+		  <a class="d-block small" href="bosungthongtin">Bổ sung thông tin</a>
+		  <a class="d-block small" href="/">Trang chủ</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <% include  elements_4/script_4 %>
+
+</body>
+
+</html>

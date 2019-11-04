@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Giỏ hàng</title>
+        <% include ../hangsx/elements/header  %>
+		<style>
+			.color {
+				color: red;
+			}
+			.color1 {
+				color: blue;
+			}
+			.color2 {
+				color: green;
+			}
+		</style>
+    </head>
+    <body id="page-top">
+        <% include ../hangsx/elements/navbar  %>
+        <div id="wrapper">
+        <% include  elements_3/sidebar_3   %>
+		<br />
+        <div class="container">
+                <h1 class="color1">Giỏ hàng của bạn</h1>
+                <br />
+                <br /> 
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4 class="color2"> Sản phẩm trong giỏ của bạn </h4>
+                        <br />
+                        <img src="./../img/hp1.jpg" width="300" height="200" />
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <br />
+                        <br />
+                        <p class="color"> HP - 14" Touch-Screen Laptop(Intel Core i3/4GB Memory/128GB Solid State Drive/Ash Silver Keyboard Frame) </p>
+                        <br />
+                        <p class="color1"> Giá: 19.500.000đ </p>
+                        <p class="color1"> Số lượng: 1 </p>                 
+                    </div>                  
+                    <div class="col-md-3">
+                        <h6 class="color2">Thông tin đơn hàng  </h6>
+                        <br />
+                        <p>Tạm tính:   </p>
+                        <p>Phí giao hàng:  </p>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Mã giảm giá">
+                        </div>                  
+                        <br />
+                        <p class="color">Tổng tiền:  </p>
+                    </div>      
+                    <div class="col-md-2">
+                        <br />
+                        <br />
+                        <p> 0đ   </p>
+                        <p> 0đ   </p>
+                        <button type="submit" class="btn btn-primary mb-2">Áp dụng</button>
+                        <br />
+                        <br />
+                        <p class="color"> 0đ   </p>
+                    </div>
+                    <div class="col-sm-12">
+                        <div style='border-bottom:1px solid #ccc;'></div>
+                    </div>
+                </div>    
+			<br />
+			<br />
+            <% include ../elements_1/note   %>
+            <br />
+            <br />
+            <div class="row">
+                <p>     </p>
+			<div class="col-sm-12">
+				<div style='border-bottom:1px solid #ccc;'></div>
+			</div>
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+        <!-- Sticky Footer -->
+        <% include ../elements_1/footer  %>
+        <!-- /#wrapper -->
+        <!-- Scroll to Top Button-->
+        <% include ../hangsx/elements/logout  %>
+        <% include ../hangsx/elements/script  %>
+    </body>
+</html>
